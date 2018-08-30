@@ -1,4 +1,4 @@
-This repo contains the binary for pygit2.
+This repo contains the binaries for pygit2.
 
 Source: https://github.com/libgit2/pygit2
 Depends on: https://github.com/libgit2/libgit2
