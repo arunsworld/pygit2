@@ -5,6 +5,14 @@ Depends on: https://github.com/libgit2/libgit2
 
 ## How to use
 
+* Start a container with anaconda
+* `docker run --rm -it -v "$PWD":/pygit2 arunsworld/django-apache:Anaconda3-5.2.0 bash`
+* `cd /pygit2`
+* Copy the so binary files and install the egg
+    * `cp libgit2.so* /opt/conda/lib/`
+    * `easy_install pygit2-0.27.1-py3.6-linux-x86_64.egg`
+* Or use the `install.sh` containing same instructions:
+    * `./install.sh`
 
 ## How to compile
 
